@@ -1,5 +1,6 @@
 'use client';
-import AllPayHomepage from "@/components/AllPayHomepage";
+import AllPayHomepage from '../../components/AllPayHomepage';
+
 export default function Page() {
   return <AllPayHomepage />;
 }
