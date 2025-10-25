@@ -1,5 +1,5 @@
-'use client';
-import AllPayHomepage from "@/components/AllPayHomepage";
+import { redirect } from 'next/navigation';
+
 export default function Page() {
-  return <AllPayHomepage />;
+  redirect('/en');
 }
